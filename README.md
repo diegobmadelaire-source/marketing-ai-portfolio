@@ -68,7 +68,9 @@ Incluye trabajo sobre:
 
 **Nota:** Blush Bar es un proyecto académico y no corresponde a un cliente real. Los datos y análisis forman parte del ejercicio universitario y no representan resultados comerciales reales.
 
-[Ver proyecto →](marketing/blush-bar/)
+[Ver proyecto en GitHub →](marketing/blush-bar/)
+
+[Visitar sitio web →](https://sites.google.com/view/blushbar/home)
 
 ## Herramientas y habilidades
 
