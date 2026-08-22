@@ -61,6 +61,8 @@ Incluye trabajo sobre:
 - Análisis del negocio.
 - Propuesta de valor.
 - Estrategia comercial y de marketing.
+- Creación y configuración de una cuenta de Instagram para la marca.
+- Desarrollo de presencia digital y contenido para redes sociales.
 - Estructura de costos.
 - Precio promedio.
 - Margen de contribución.
