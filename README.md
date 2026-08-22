@@ -34,7 +34,7 @@ Cada proyecto se documentará con su objetivo, público, herramientas, proceso, 
 
 ## Proyecto destacado
 
-### 🍕 Pizzeria Demo
+### 🍕 Pizzeria Demo — Fornello Pizza
 
 Landing page demostrativa para una pizzería ficticia, desarrollada como práctica de **web + UX + conversión + IA**.
 
@@ -47,7 +47,28 @@ Incluye:
 - Accesibilidad.
 - Optimización básica de imágenes.
 
-[Ver proyecto →](websites/pizzeria-demo/)
+[Ver código →](websites/pizzeria-demo/)
+
+[Visitar sitio →](https://fornello-pizza.netlify.app/)
+
+## Proyecto académico
+
+### Blush Bar
+
+Proyecto académico de marketing y estrategia empresarial desarrollado durante la universidad.
+
+Incluye trabajo sobre:
+- Análisis del negocio.
+- Propuesta de valor.
+- Estrategia comercial y de marketing.
+- Estructura de costos.
+- Precio promedio.
+- Margen de contribución.
+- Punto de equilibrio.
+
+**Nota:** Blush Bar es un proyecto académico y no corresponde a un cliente real. Los datos y análisis forman parte del ejercicio universitario y no representan resultados comerciales reales.
+
+[Ver proyecto →](marketing/blush-bar/)
 
 ## Herramientas y habilidades
 
