@@ -1,5 +1,5 @@
 # Images
 
-Esta demo utiliza fotografías remotas de [Unsplash](https://unsplash.com/), aplicadas mediante URLs de `images.unsplash.com`. Las imágenes funcionan como recursos visuales de demostración y deben revisarse o reemplazarse antes de publicar un sitio comercial.
+`pizza-artesanal-demo.jpg` es una imagen generada específicamente para este proyecto y optimizada para uso web.
 
-Para una versión de producción, guarda aquí imágenes propias, con licencia comercial verificable o creadas específicamente para el proyecto. Añade la atribución o licencia correspondiente cuando aplique.
+La demo también usa algunas fotografías remotas de [Unsplash](https://unsplash.com/) mediante `images.unsplash.com`. Antes de una publicación comercial, se deben reemplazar por fotos propias o verificar la licencia vigente y las atribuciones que correspondan.
