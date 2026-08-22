@@ -1,23 +1,39 @@
 # Diego Enrique Bogado Madelaire
 
-**Freelance Marketer · AI • Digital Marketing • Automation**
+**Freelance Digital Marketer · AI • Content • Digital Solutions**
 
-Freelancer especializado en marketing digital y creación de soluciones digitales para negocios, combinando estrategia, Meta Ads, inteligencia artificial, automatización, creación de contenido y desarrollo web.
+Soy estudiante de Marketing y freelancer. Mi eje profesional es el **marketing digital**: redes sociales, contenido, estrategia y Meta Ads. Utilizo **IA y tecnología como multiplicadores** para trabajar de forma más eficiente y crear soluciones digitales que ayuden a los negocios a mejorar su presencia y conversión.
 
-> Este repositorio reúne proyectos, experimentos y casos prácticos que estoy construyendo como portfolio profesional.
+> Mi objetivo no es ser un desarrollador tradicional. Estoy explorando cómo combinar marketing, IA y tecnología para crear mejores soluciones digitales y automatizar procesos.
 
-## En qué estoy enfocado
+## Mi enfoque
 
-- **Marketing digital:** estrategia, contenido, análisis y optimización de campañas.
-- **Meta Ads:** planificación, configuración y optimización de campañas publicitarias.
-- **Inteligencia artificial:** uso práctico de IA para crear contenido, productos y soluciones digitales.
-- **Automatización:** diseño de procesos repetibles que ahorran tiempo y mejoran la operación.
-- **Desarrollo web:** creación de landing pages y sitios web funcionales utilizando herramientas de IA.
-- **Creación de contenido:** contenido para redes sociales, edición y proyectos audiovisuales.
+### 🟦 Marketing Digital — mi núcleo profesional
+
+- Estrategia de marketing digital.
+- Gestión de redes sociales.
+- Creación y planificación de contenido.
+- Meta Ads.
+- Comunicación y presencia digital.
+- Análisis y optimización.
+
+### 🟪 IA & Automatización — mi multiplicador
+
+Utilizo herramientas de inteligencia artificial para acelerar tareas, explorar nuevas formas de trabajar y desarrollar procesos más eficientes.
+
+Estoy especialmente interesado en automatizar la creación de soluciones digitales y reducir el trabajo repetitivo mediante IA.
+
+### 🟩 Web & Soluciones Digitales — mi diferencial técnico
+
+Como parte de mi exploración de IA y automatización, estoy desarrollando páginas web y sistemas reutilizables que puedan adaptarse rápidamente a las necesidades de distintos negocios.
+
+La idea es evolucionar hacia un flujo donde la información de un cliente pueda alimentar una plantilla y la IA pueda personalizar textos, estructura, diseño y elementos de conversión, manteniendo una revisión humana antes de publicar.
+
+**Marketing es el objetivo. La IA y la tecnología son herramientas para llegar a él de una manera más rápida y escalable.**
 
 ## Especialidades
 
-`Marketing Digital` · `Meta Ads` · `IA` · `Automatización` · `Web` · `Contenido` · `Social Media`
+`Marketing Digital` · `Social Media` · `Meta Ads` · `Content` · `IA` · `Web` · `Automation`
 
 ## Proyectos
 
@@ -36,7 +52,7 @@ Cada proyecto se documentará con su objetivo, público, herramientas, proceso, 
 
 ### 🍕 Pizzeria Demo — Fornello Pizza
 
-Landing page demostrativa para una pizzería ficticia, desarrollada como práctica de **web + UX + conversión + IA**.
+Landing page demostrativa para una pizzería ficticia, desarrollada como práctica de **marketing + UX + conversión + IA + web**.
 
 Incluye:
 - Diseño responsive.
@@ -106,7 +122,7 @@ Incluye trabajo sobre:
 
 ## Sobre este repositorio
 
-La estructura está pensada para crecer como un portfolio profesional y como espacio de experimentación. Cada proyecto futuro debería incluir su propio `README.md` con contexto, instrucciones, herramientas utilizadas y resultados cuando corresponda.
+Este repositorio funciona como mi portfolio profesional y como laboratorio de aprendizaje. Reúne proyectos de marketing, contenido, IA, automatización y soluciones web que estoy desarrollando para entender cómo la tecnología puede ampliar las capacidades de un marketer.
 
 ---
 
