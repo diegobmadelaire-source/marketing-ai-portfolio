@@ -1,6 +1,6 @@
 # Diego Enrique Bogado Madelaire
 
-**Freelance Marketer · AI & Digital Marketing**
+**Freelance Marketer · AI • Digital Marketing • Automation**
 
 Freelancer especializado en marketing digital y creación de soluciones digitales para negocios, combinando estrategia, Meta Ads, inteligencia artificial, automatización, creación de contenido y desarrollo web.
 
@@ -58,7 +58,7 @@ Incluye:
 - Copywriting
 - Estrategia de contenidos
 
-### Tecnología
+### Tecnología & herramientas
 - Inteligencia Artificial
 - Automatización
 - Desarrollo Web con IA
