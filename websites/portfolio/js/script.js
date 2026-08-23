@@ -26,6 +26,21 @@
     });
   }
 
+  var heroVisual = document.querySelector(".hero-visual");
+  if (heroVisual) {
+    var profileImage = document.createElement("img");
+    profileImage.src = "images/profile.jpg";
+    profileImage.alt = "Diego Enrique Bogado Madelaire";
+    profileImage.style.width = "100%";
+    profileImage.style.maxWidth = "31rem";
+    profileImage.style.aspectRatio = "4 / 5";
+    profileImage.style.objectFit = "cover";
+    profileImage.style.objectPosition = "center";
+    profileImage.style.borderRadius = "1.5rem";
+    profileImage.style.boxShadow = "0 24px 60px rgba(23, 20, 15, 0.08)";
+    heroVisual.replaceChildren(profileImage);
+  }
+
   var yearEl = document.getElementById("year");
   if (yearEl) {
     yearEl.textContent = new Date().getFullYear();
