@@ -51,11 +51,11 @@
     profilePhoto.style.boxShadow = "0 24px 60px rgba(23, 20, 15, 0.10)";
     profilePhoto.style.zIndex = "1";
     heroVisual.prepend(profilePhoto);
+  }
 
-    var heroMark = heroVisual.querySelector(".hero-mark");
-    if (heroMark) {
-      heroMark.remove();
-    }
+  var heroMark = document.querySelector(".hero-mark");
+  if (heroMark) {
+    heroMark.remove();
   }
 
   var yearEl = document.getElementById("year");
