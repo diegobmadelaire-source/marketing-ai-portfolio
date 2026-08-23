@@ -54,12 +54,7 @@
 
     var heroMark = heroVisual.querySelector(".hero-mark");
     if (heroMark) {
-      heroMark.style.position = "absolute";
-      heroMark.style.left = "-1rem";
-      heroMark.style.bottom = "-1rem";
-      heroMark.style.width = "12rem";
-      heroMark.style.zIndex = "2";
-      heroMark.style.opacity = "0.9";
+      heroMark.remove();
     }
   }
 
