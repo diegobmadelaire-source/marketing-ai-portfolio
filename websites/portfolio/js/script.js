@@ -31,6 +31,38 @@
     });
   }
 
+  var heroVisual = document.querySelector(".hero-visual");
+  if (heroVisual && !heroVisual.querySelector(".profile-photo")) {
+    heroVisual.style.position = "relative";
+    heroVisual.style.minHeight = "28rem";
+
+    var profilePhoto = document.createElement("img");
+    profilePhoto.className = "profile-photo";
+    profilePhoto.src = "images/profile.jpg";
+    profilePhoto.alt = "Diego Bogado Madelaire";
+    profilePhoto.style.position = "absolute";
+    profilePhoto.style.top = "0";
+    profilePhoto.style.right = "0";
+    profilePhoto.style.width = "min(100%, 21rem)";
+    profilePhoto.style.height = "28rem";
+    profilePhoto.style.objectFit = "cover";
+    profilePhoto.style.objectPosition = "center top";
+    profilePhoto.style.borderRadius = "1.25rem";
+    profilePhoto.style.boxShadow = "0 24px 60px rgba(23, 20, 15, 0.10)";
+    profilePhoto.style.zIndex = "1";
+    heroVisual.prepend(profilePhoto);
+
+    var heroMark = heroVisual.querySelector(".hero-mark");
+    if (heroMark) {
+      heroMark.style.position = "absolute";
+      heroMark.style.left = "-1rem";
+      heroMark.style.bottom = "-1rem";
+      heroMark.style.width = "12rem";
+      heroMark.style.zIndex = "2";
+      heroMark.style.opacity = "0.9";
+    }
+  }
+
   var yearEl = document.getElementById("year");
   if (yearEl) {
     yearEl.textContent = new Date().getFullYear();
