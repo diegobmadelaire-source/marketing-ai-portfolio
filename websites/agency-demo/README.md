@@ -1,21 +1,24 @@
-# D/F Growth Systems — Landing de agencia
+# Digital Engine — Landing de agencia
 
-Landing page estática y responsive para la agencia de marketing de Diego y Francisco, enfocada en restaurantes, playas de autos e inmobiliarias de Paraguay.
+Landing page estática y responsive para una agencia de marketing enfocada en restaurantes, playas de autos e inmobiliarias de Paraguay.
 
-## Incluye
+## Contacto configurado
 
-- Propuesta de valor, nichos, sistema de trabajo, métricas y planes.
-- Portfolio presentado de forma explícita como conceptual.
-- Contacto por WhatsApp y formulario corto que prepara un correo a `diego.bmadelaire@gmail.com` en el cliente de correo del visitante.
-- Navegación mobile-first, accesibilidad de teclado y CTA de WhatsApp siempre visible.
+- WhatsApp: `0927 271 737` (`+595 927 271 737`).
+- Email: `diego@gmail.com`.
 
-## Uso local
+## Formulario
 
-Abrí `index.html` en un navegador. No requiere instalación ni proceso de compilación.
+El formulario usa **Netlify Forms**: no requiere backend ni aplicación de correo del visitante. Cuando se despliegue el sitio en Netlify, las consultas se guardarán en **Forms → solicitud-propuesta**.
 
-## Antes de publicar
+Para recibirlas automáticamente por email, en el panel de Netlify configurá una notificación de formulario:
 
-- Confirmá el nombre comercial definitivo de la agencia (por ahora se usa `D/F Growth Systems`).
-- Confirmá que el número de WhatsApp y el correo de contacto siguen siendo los correctos.
-- Definí una solución de recepción para el formulario si se requiere no depender del cliente de correo del visitante.
-- Reemplazá `noindex, nofollow` por una estrategia SEO real y agregá dominio canónico, imagen Open Graph y analítica verificable.
+1. Abrí el sitio en Netlify y entrá a **Project configuration → Notifications**.
+2. Creá una notificación **Email notification** para el formulario `solicitud-propuesta`.
+3. Indicá `diego@gmail.com` como destinatario.
+
+Netlify detectará el formulario en el próximo despliegue. Incluye una trampa anti-spam y el filtro anti-spam de Netlify.
+
+## Publicación
+
+Abrí `index.html` localmente para revisar el diseño. Antes de indexar el sitio, definí el dominio final; entonces se podrán agregar la URL canónica, imagen Open Graph y la configuración SEO definitiva.

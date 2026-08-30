@@ -34,9 +34,25 @@ const formNote = document.querySelector('#form-note');
 
 proposalForm?.addEventListener('submit', (event) => {
   event.preventDefault();
+  const submitButton = proposalForm.querySelector('button[type="submit"]');
   const data = new FormData(proposalForm);
-  const subject = encodeURIComponent(`Nueva consulta: ${data.get('empresa')}`);
-  const body = encodeURIComponent(`Nombre: ${data.get('nombre')}\nEmpresa: ${data.get('empresa')}\nTipo de negocio: ${data.get('tipo')}\nWhatsApp: ${data.get('whatsapp')}\n\nQué quiere mejorar:\n${data.get('mensaje')}`);
-  window.location.href = `mailto:diego.bmadelaire@gmail.com?subject=${subject}&body=${body}`;
-  if (formNote) formNote.textContent = 'Abrimos tu aplicación de correo para enviar la consulta.';
+  if (submitButton) submitButton.disabled = true;
+  if (formNote) formNote.textContent = 'Enviando tu consulta...';
+
+  fetch('/', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+    body: new URLSearchParams(data).toString(),
+  })
+    .then((response) => {
+      if (!response.ok) throw new Error('No se pudo enviar el formulario.');
+      proposalForm.reset();
+      if (formNote) formNote.textContent = '¡Gracias! Recibimos tu consulta y te contactaremos pronto.';
+    })
+    .catch(() => {
+      if (formNote) formNote.textContent = 'No pudimos enviar la consulta. Escribinos por WhatsApp.';
+    })
+    .finally(() => {
+      if (submitButton) submitButton.disabled = false;
+    });
 });
