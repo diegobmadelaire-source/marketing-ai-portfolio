@@ -5,7 +5,7 @@ Landing page estática y responsive para una agencia de marketing enfocada en re
 ## Contacto configurado
 
 - WhatsApp: `0927 271 737` (`+595 927 271 737`).
-- Email: `diego@gmail.com`.
+- Email: `diego.bmadelaire@gmail.com`.
 
 ## Formulario
 
@@ -15,7 +15,7 @@ Para recibirlas automáticamente por email, en el panel de Netlify configurá un
 
 1. Abrí el sitio en Netlify y entrá a **Project configuration → Notifications**.
 2. Creá una notificación **Email notification** para el formulario `solicitud-propuesta`.
-3. Indicá `diego@gmail.com` como destinatario.
+3. Indicá `diego.bmadelaire@gmail.com` como destinatario.
 
 Netlify detectará el formulario en el próximo despliegue. Incluye una trampa anti-spam y el filtro anti-spam de Netlify.
 
