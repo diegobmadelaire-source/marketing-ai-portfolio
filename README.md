@@ -67,6 +67,18 @@ Incluye:
 
 [Visitar sitio →](https://fornello-pizza.netlify.app/)
 
+### 🚗 Playa de Vehículos Demo — Norte Autos
+
+Landing page demostrativa para una playa de vehículos ficticia, enfocada en presentar stock, especificaciones y una propuesta de atención clara.
+
+Incluye:
+- Diseño responsive.
+- Catálogo de vehículos con datos y precios de demostración.
+- SEO básico y accesibilidad.
+- Información de contacto, ubicación y horarios ficticios.
+
+[Ver código →](websites/playa-vehiculos-demo/)
+
 ## Proyecto académico
 
 ### Blush Bar
