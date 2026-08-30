@@ -1,21 +1,30 @@
-# D/F Growth Systems — Landing de agencia
+# Pizzería Demo — Forno & Oliva
 
-Landing page estática y responsive para la agencia de marketing de Diego y Francisco, enfocada en restaurantes, playas de autos e inmobiliarias de Paraguay.
+Landing page estática y responsive para una pizzería ficticia. Es un proyecto de demostración incluido en el portfolio.
 
 ## Incluye
 
-- Propuesta de valor, nichos, sistema de trabajo, métricas y planes.
-- Portfolio presentado de forma explícita como conceptual.
-- Contacto por WhatsApp y formulario corto que prepara un correo a `diego.bmadelaire@gmail.com` en el cliente de correo del visitante.
-- Navegación mobile-first, accesibilidad de teclado y CTA de WhatsApp siempre visible.
+- Navegación responsive con menú móvil.
+- Hero, presentación, menú, promociones y galería.
+- Contacto, horarios, ubicación ficticia y accesos de WhatsApp de ejemplo.
+- HTML semántico, SEO básico, accesibilidad de teclado y optimización de imágenes.
+- Diseño mobile-first sin backend, base de datos ni pagos.
 
 ## Uso local
 
-Abrí `index.html` en un navegador. No requiere instalación ni proceso de compilación.
+Abre `index.html` en un navegador. No requiere instalación ni proceso de compilación.
 
-## Antes de publicar
+## Personalización pendiente
 
-- Confirmá el nombre comercial definitivo de la agencia (por ahora se usa `D/F Growth Systems`).
-- Confirmá que el número de WhatsApp y el correo de contacto siguen siendo los correctos.
-- Definí una solución de recepción para el formulario si se requiere no depender del cliente de correo del visitante.
-- Reemplazá `noindex, nofollow` por una estrategia SEO real y agregá dominio canónico, imagen Open Graph y analítica verificable.
+Antes de reutilizarla para un negocio real, reemplaza todos los datos identificados como demo (teléfono, WhatsApp, precios, dirección, horarios, correo y cobertura). Configura un dominio y sustituye el `noindex` por una estrategia SEO real: URL canónica, Open Graph con URL e imagen absolutas, y datos estructurados locales verificados. Revisa también las imágenes según las condiciones de uso indicadas en [`images/README.md`](images/README.md).
+
+## Estructura
+
+```text
+pizzeria-demo/
+├── css/style.css
+├── images/README.md
+├── js/script.js
+├── index.html
+└── README.md
+```

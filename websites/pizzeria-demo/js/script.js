@@ -28,15 +28,3 @@ document.addEventListener('keydown', (event) => {
 });
 
 if (year) year.textContent = new Date().getFullYear();
-
-const proposalForm = document.querySelector('#proposal-form');
-const formNote = document.querySelector('#form-note');
-
-proposalForm?.addEventListener('submit', (event) => {
-  event.preventDefault();
-  const data = new FormData(proposalForm);
-  const subject = encodeURIComponent(`Nueva consulta: ${data.get('empresa')}`);
-  const body = encodeURIComponent(`Nombre: ${data.get('nombre')}\nEmpresa: ${data.get('empresa')}\nTipo de negocio: ${data.get('tipo')}\nWhatsApp: ${data.get('whatsapp')}\n\nQué quiere mejorar:\n${data.get('mensaje')}`);
-  window.location.href = `mailto:diego.bmadelaire@gmail.com?subject=${subject}&body=${body}`;
-  if (formNote) formNote.textContent = 'Abrimos tu aplicación de correo para enviar la consulta.';
-});
