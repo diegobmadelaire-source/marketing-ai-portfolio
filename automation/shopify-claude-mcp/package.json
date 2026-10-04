@@ -1,0 +1,8 @@
+{
+  "name": "shopify-claude-mcp",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "netlify dev"
+  }
+}
